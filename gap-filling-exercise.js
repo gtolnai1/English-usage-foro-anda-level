@@ -84,7 +84,7 @@ const ITEMS = [
   { sentence: "She’s turning ___ the offer.", answer: "down" },
   { sentence: "He’s working ___ his homework.", answer: "on" },
   { sentence: "She’s writing ___ her plans.", answer: "down" },
-  { sentence: "He’s breaking ___ with tradition.", answer: "with" },
+  { sentence: "He’s breaking ____ tradition.", answer: "with" },
   { sentence: "She’s calling ___ for help.", answer: "out" },
   { sentence: "He’s checking ___ the answer.", answer: "over" },
   { sentence: "She’s cleaning ___ after dinner.", answer: "up" },
@@ -339,3 +339,4 @@ exerciseList.addEventListener('keydown', function(e) {
 
 // ========== Initialize ==========
 generateExercise();
+
